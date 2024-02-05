@@ -1,0 +1,19 @@
+.card {
+  background: white;                         /* White background */
+  padding: 15px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  max-width: 250px;
+}
+
+.card-image {
+  background-image: url('https://source.unsplash.com/random');
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
