@@ -1,0 +1,58 @@
+/* Generic Card */
+.card {
+  width: 400px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 8px;
+}
+
+.card img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Top Section */
+.card-top {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* top: 5px; */
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: rgb(185, 85, 102);
+}
+
+.card-top h2, .card-top p {
+  margin: 0;
+}
+
+.card-top img {
+  width: 50%;
+}
+
+/* Medium Section */
+.card-medium {
+  height: 150px;
+  margin: 8px 0;
+}
+
+.card-medium img {
+  width: 100%;
+}
+
+/* Bottom Section */
+.card-bottom {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom img {
+  width: 30%;
+}
